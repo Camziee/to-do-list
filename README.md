@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Obs.:
+
+If you wish for the application to fetch a list of tasks from an API you can remove the comments in the file App.jsx marked as "// Fetch tasks from API".
+You can simply change the URL to put any API URL you want as long as it returns an array of objects in the following format:
+
+```json
+[
+  {
+    "userId": number,
+    "id": number,
+    "title": string,
+    "completed": boolean
+  }
+]
+```
+I previously used this API in case you are interested (already in the code): https://jsonplaceholder.typicode.com/todos?_limit=10
+
 ## Available Scripts
 
 In the project directory, you can run:
