@@ -1,0 +1,42 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "redhat.telemetry.enabled": true,
+    "files.autoSaveDelay": 100,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "diffEditor.codeLens": true,
+    "editor.formatOnSaveMode": "modifications",
+    "prettier.requireConfig": true,
+    "prettier.proseWrap": "never",
+    "prettier.printWidth": 100,
+    "prettier.enable": true,
+    "editor.formatOnType": true,
+    "diffEditor.wordWrap": "off",
+    "editor.minimap.maxColumn": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "json.maxItemsComputed": 10000,
+    "search.exclude": {
+        "**/target": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true,
+        "javascript": true,
+        "html": true
+    },
+    "debug.disassemblyView.showSourceCode": false,
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
